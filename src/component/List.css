@@ -1,0 +1,78 @@
+.list {
+    min-height: 100vh; 
+    overflow: auto;
+  }
+
+.list h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.list ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+.list ul li{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 0px 20px 15px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(108, 108, 248);
+}
+.list img{
+    display: inline-block;
+    margin: 10px 15px 0px 0px;
+}
+.list .edit-button{
+    background-color: rgb(237, 237, 4);
+    color: black;
+    border: 1px solid black;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+.list .delete-button{
+    background-color: rgb(213, 4, 4);
+    color: white;
+    padding: 1px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.list button{
+    margin-top: 4px;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.list .save-button{
+    background-color: green;
+    color: white;
+    padding: 1px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.list .prev-button{
+    background-color: grey;
+    color: black;
+    padding: 1px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.list .next-button{
+    background-color: grey;
+    color: black;
+    padding: 1px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+@media(max-width: 600px){
+    .list ul{
+        grid-template-columns: 1fr !important;
+    }
+}
