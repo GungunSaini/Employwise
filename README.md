@@ -20,8 +20,8 @@ This is a simple **React.js** application that fetches and displays a list of us
 
 ### Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/GungunSaini/Employwise.git
+cd Employwise
 
 
 ### Install dependencies
