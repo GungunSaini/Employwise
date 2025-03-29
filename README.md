@@ -47,23 +47,6 @@ This project uses the **Reqres API** to fetch user data.
   }
 
 
-## Folder Structure
-
-
-employwise/
-│── src/
-│   │── components/
-│   │   ├── List.jsx  # User list component
-│   │   ├── Login.jsx # Login component
-│   │   ├── List.css  # Styles for List component
-│   │   ├── Login.css # Styles for Login component
-│   │── App.jsx       # Main app file
-│   │── main.jsx      # React entry point
-│── public/
-│── package.json     # Dependencies
-│── README.md        # Documentation
-
-
 ## Usage
 
 1. Open the app in your browser (`http://localhost:5173/`).
